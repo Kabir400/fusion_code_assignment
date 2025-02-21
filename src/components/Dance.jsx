@@ -11,7 +11,8 @@ function Dance() {
     <div className="dance">
       <h2 className="dance-heading">Ready to Simplify Your Life?</h2>
       <p className="dance-text">
-        Be the first to know when we launch! Join our waiting list and <br />
+        Be the first to know when we launch! Join our waiting list and{" "}
+        <br className="dance-br" />
         get exclusive updates and early access to our journey.
       </p>
       <div className="dance-btn" id="waitlist">

@@ -7,5 +7,140 @@
   font-family: "Fraunces", serif;
   color: white;
   scrollbar-width: none !important;
+  overflow-x: hidden;
   scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1400px) {
+  .feature-box-container {
+    width: 353px !important;
+  }
+  .feature-box {
+    height: 215px !important;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .feature-box-container {
+    width: 272px !important;
+  }
+  .feature-box {
+    height: 243px !important;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .feature-container {
+    justify-content: flex-start !important;
+    width: calc(292px * 2 + 20px) !important;
+  }
+  .feature-box-container {
+    width: 292px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .feature-heading {
+    padding-left: calc((100vw - ((292px * 2) + 20px)) / 2) !important;
+    text-align: start !important;
+  }
+  .hero-heading {
+    font-size: 27px !important;
+    line-height: 33.75px !important;
+    text-align: start !important;
+  }
+  .hero-sub-heading {
+    padding-right: 124px !important;
+  }
+  .hero-btn {
+    margin-right: 135px !important;
+  }
+  .how-it-works-heading {
+    align-self: flex-start !important;
+  }
+
+  .mission {
+    width: 360px !important;
+  }
+  .mission-heading,
+  .mission-text,
+  .mission-heading2,
+  .mission-subheading {
+    text-align: start !important;
+  }
+  .mobile-br {
+    display: none !important;
+  }
+  .love {
+    right: 24px !important;
+  }
+}
+
+@media screen and (max-width: 659px) {
+  .how-it-works-right {
+    width: auto !important;
+  }
+  .how-it-works-box {
+    width: 90vw !important;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .feature-box-container {
+    width: 90vw !important;
+  }
+  .feature-box {
+    height: auto !important;
+  }
+  .feature-box-img {
+    margin-top: 20px;
+  }
+  .feature-heading {
+    padding-left: 20px !important;
+  }
+  .feature-container {
+    justify-content: center !important;
+    width: auto !important;
+  }
+  .hero-img,
+  .desktop-br {
+    display: none !important;
+  }
+  .hero-mobile {
+    display: block !important;
+  }
+  .hero-box {
+    align-items: flex-start !important;
+    padding: 0 20px !important;
+  }
+  .hero-btn {
+    width: 228px !important;
+  }
+}
+@media screen and (max-width: 519px) {
+  .downArrow {
+    top: 78px !important;
+    width: 34px !important;
+  }
+  .twistedArrow {
+    width: 41px !important;
+    bottom: 67px !important;
+    left: 125px !important;
+  }
+}
+@media screen and (max-width: 519px) {
+  .dance-btn {
+    width: 80vw !important;
+  }
+  .dance-heading,
+  .dance-text {
+    text-align: center !important;
+    padding: 0 10px !important;
+  }
+  .dance-br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .mission {
+    width: 105vw !important;
+  }
 }

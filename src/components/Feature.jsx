@@ -13,7 +13,6 @@ function Feature() {
   return (
     <div className="feature">
       <h2 className="feature-heading">Why JustLiv?</h2>
-
       <div className="feature-container">
         {data.map((item, index) => (
           <div className="feature-box-container" key={index}>

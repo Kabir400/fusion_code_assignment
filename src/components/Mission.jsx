@@ -14,13 +14,13 @@ function Mission() {
       <p className="mission-subheading">
         Parents need a simple way to find, book, and track their kids
         activities. Businesses need a better way to be found and to keep
-        families coming <br />
+        families coming <br className="mobile-br" />
         back.
       </p>
       <p className="mission-text">Our purpose is to</p>
       <h4 className="mission-heading2">
-        make parents lives <span className="pink">easier</span>,
-        <span className="pink">happier</span>, and
+        make parents lives <span className="pink">easier</span>,{" "}
+        <span className="pink">happier</span>, and{" "}
         <span className="pink">less stressful</span>.
       </h4>
       <p className="mission-text2">
