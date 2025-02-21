@@ -1,0 +1,54 @@
+.footer {
+  background-color: #3a4e78;
+
+  display: flex;
+  justify-content: center;
+}
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding-top: 60px;
+  gap: 10px;
+  align-items: center;
+}
+.footer-logo {
+  width: 113px;
+}
+.instagram-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.instagram-container-text {
+  text-decoration: none;
+  font-family: "Lato", serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+.instagram-logo {
+  filter: invert(1);
+}
+.policy {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  margin-top: 73px;
+}
+.statement {
+  font-family: "Lato", serif;
+  font-size: 16px;
+}
+.linkdin-container {
+  margin-top: 40px;
+}
+.linkdin-container img {
+  filter: invert(1);
+}
+.copyright {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

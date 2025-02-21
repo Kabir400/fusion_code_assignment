@@ -1,0 +1,72 @@
+.how-it-works {
+  margin-top: 70px;
+  background-image: url("../assets/sky.png");
+  height: 700px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 69px 30px;
+  gap: 20px;
+  align-items: center;
+}
+.how-it-works-heading {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.how-it-works-container {
+  display: flex;
+  gap: 40px;
+  flex: column;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  position: relative;
+}
+.how-it-works-box {
+  display: flex;
+  gap: 23px;
+}
+.how-it-works-right {
+  width: 512px;
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+}
+.how-it-works-left {
+  background-color: #51658e;
+  border-radius: 8px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-it-works-left img {
+  filter: invert(1);
+}
+.how-it-works-right-title {
+  font-size: 18px;
+  font-family: "Lato", serif;
+}
+.how-it-works-right-text {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #cccfd6;
+}
+
+.twistedArrow {
+  position: absolute;
+  width: 48px;
+  bottom: 40px;
+  left: 135px;
+}
+.downArrow {
+  position: absolute;
+  top: 56px;
+  width: 41px;
+  left: 78px;
+}

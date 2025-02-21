@@ -1,0 +1,46 @@
+.dance {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-image: url("../assets/girls.png");
+  background-size: cover;
+  height: 400px;
+  margin-top: 40px;
+}
+
+.dance-heading {
+  font-size: 24px;
+  font-weight: 400;
+}
+.dance-text {
+  font-family: "Lato", serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.dance-btn {
+  display: flex;
+  gap: 20px;
+  background-color: #ff97a8;
+  box-shadow: oklch(1 0 0 / 0.06) 0px 0.5px 0px 0.5px inset,
+    oklab(0.98 0 0 / 0.3) 0px 3px 2px -2px,
+    oklab(0.98 0 0 / 0.3) 0px 4px 3px -2px;
+  border-radius: 2.68435e7px;
+  width: 30%;
+  padding: 10px 0px;
+  justify-content: center;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.dance-btn-text {
+  font-size: 18px;
+  font-family: "Lato", serif;
+  color: black;
+}
+.dance-btn img {
+  width: 21px;
+}

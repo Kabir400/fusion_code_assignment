@@ -1,0 +1,54 @@
+.mission {
+  position: relative;
+  width: 580px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 60px;
+}
+.mission-heading {
+  color: #001500;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+}
+.mission-subheading {
+  font-size: 16px;
+  color: #384252;
+  line-height: 24px;
+  margin-top: 20px;
+  font-family: "Lato", serif;
+  text-align: center;
+}
+.mission-text {
+  color: #001500;
+  font-size: 16px;
+  margin-top: 30px;
+  font-family: "Lato", serif;
+  text-align: center;
+}
+.mission-heading2 {
+  font-family: "Lato", serif;
+  font-size: 22px;
+  margin-top: 5px;
+  color: #001500;
+  text-align: center;
+}
+.pink {
+  color: #ff8095;
+}
+.mission-text2 {
+  color: #384252;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.family {
+  width: 100%;
+}
+
+.love {
+  right: 70px;
+  position: absolute;
+  top: 0px;
+}
