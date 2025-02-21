@@ -1,7 +1,7 @@
 import React from "react";
 
 //css-
-import "../css/Footer.css";
+import "../css/footer.css";
 
 //img-
 import logo from "../assets/logo1.png";
